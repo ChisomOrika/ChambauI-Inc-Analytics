@@ -2,6 +2,7 @@ import psycopg2
 import boto3
 from io import StringIO
 from botocore.config import Config
+from botocore import UNSIGNED
 import config
 
 
