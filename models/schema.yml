@@ -15,26 +15,8 @@ models:
       - unique
       - not_null
 
-  - name: late_shipment_hrp
-    description: "total late shipment of highest review products"
-    tests:
-      - unique
-      - not_null
-
-  - name: early_shipment_hrp
-    description: "total early shipment of highest review products"
-    tests:
-      - unique
-      - not_null
-
   - name: highest_review_product
     description: "product with the highest number of review"
-    tests:
-      - unique
-      - not_null
-
-  - name: review_distribution
-    description: "the review distribution of the product with the highest review "
     tests:
       - unique
       - not_null
@@ -44,13 +26,6 @@ models:
     tests:
       - unique
       - not_null
-
-  - name: most_ordered_day
-    description: "The day whn the highest reviewed product was ordered the most"
-    tests:
-      - unique
-      - not_null
-
 
   - name: best_performing_product
     description: "Best performing product by the highest number of reviews percentage distribution of reviews etc"
