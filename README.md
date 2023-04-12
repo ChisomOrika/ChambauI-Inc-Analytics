@@ -4,8 +4,7 @@
 
 This project is focused on utilizing dbt, a data transformation tool and Python to build a data pipeline that simulates Chambau datasets. The datasets contain information about orders, deliveries and reviews. The pipeline will transform this raw data into a format that is suitable for analysis and reporting in downstream applications. 
 
-<<<< HEAD
-Tech stack and functions
+### Tech stack and functions
 DBT: For data cleaning and transformation
 Python: Data extraction and loading
 Amazon s3: Data lake
