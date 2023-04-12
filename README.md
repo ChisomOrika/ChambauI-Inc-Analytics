@@ -31,8 +31,7 @@ PowerBI : BI tool for developing dashboard <br>
 
 ### DBT Workflow
 
-
-<img width="1150" alt="chambau dbt workflow" src="https://user-images.githubusercontent.com/90322381/231496975-22b2a53d-78a5-4dcf-b2db-500ac5bf9f0b.png">
+![chambau workflow dbt](https://user-images.githubusercontent.com/90322381/231587860-aa5b2a42-0fe0-4551-812f-47caa667ccc0.png)
 
 
 ### Resources:
