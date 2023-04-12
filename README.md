@@ -34,10 +34,12 @@ PowerBI : BI tool for developing dashboard <br>
 
 - dbt_project.yml
 - models
-  - staging
-    - hosts.sql
-    - listings.sql
-    - reviews.sql
+  - src
+    - src_dates.sql
+    - src_deliveries.sql
+    - src_orders.sql
+    - src_reviews.sql
+    - src_p
   - analysis
     - hosts.sql
     - listings.sql
@@ -46,7 +48,9 @@ PowerBI : BI tool for developing dashboard <br>
   - hosts.csv
   - listings.csv
   - reviews.csv
-
+`
+hjklklo
+`
 
 dbt_project.yml: The project configuration file that defines the settings for dbt.
 models/src: The directory that contains the models for the staging area.
