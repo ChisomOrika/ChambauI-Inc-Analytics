@@ -11,7 +11,7 @@ Amazon s3: Data lake <br>
 Postgres : Data warehouse <br>
 PowerBI : BI tool for developing dashboard <br>
 
-![Workflow Image](https://imgur.com/a/d2zHjhM)
+![Blank diagram](https://user-images.githubusercontent.com/90322381/231426044-144de43d-6c14-4c2e-9646-9603b475e560.png)
 
 ### Using the starter project
 
