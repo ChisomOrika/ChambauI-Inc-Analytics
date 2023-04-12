@@ -29,6 +29,11 @@ PowerBI : BI tool for developing dashboard <br>
 * Run make docs to generate the project documentation and make serve to deploy this documentation to a webserver accessed at port 8080
 
 
+### DBT Workflow
+
+<img width="874" alt="graph" src="https://user-images.githubusercontent.com/90322381/231490229-87901148-2c65-4ee2-ba2c-947376e72f60.png">
+
+
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
