@@ -11,26 +11,11 @@ Amazon s3: Data lake <br>
 Postgres : Data warehouse <br>
 PowerBI : BI tool for developing dashboard <br>
 
+
 ### Workflow Architecture
 
 
 ![Chambau workflow](https://user-images.githubusercontent.com/90322381/231427074-8120f8b7-4909-4c77-bd4d-2f70e00c5bc5.png)
-
-### How to run the project
-* Create a project folder and cd into this folder
-
-* Run make setup on your terminal to setup dbt in your current directory
-
-* Run make init to inialize dbt structure for your project
-
-* Setup the data warehouse, grant the neccessary permissions and connect it to dbt in the profiles.yml in your directory. This can be retrieved using the following command cat ~/.dbt/profiles.yml
-
-* Run make docs to generate the project documentation and make serve to deploy this documentation to a webserver accessed at port 8080
-
-
-### DBT Workflow
-
-![chambau workflow dbt](https://user-images.githubusercontent.com/90322381/231587860-aa5b2a42-0fe0-4551-812f-47caa667ccc0.png)
 
 
 ### Project Structure
@@ -69,12 +54,20 @@ PowerBI : BI tool for developing dashboard <br>
 * model/schema.yml: contains a list of models, configuration details such as the SQL code for the model, its dependencies, and its column definitions.
 
 
+
+### DBT Workflow
+
+![chambau workflow dbt](https://user-images.githubusercontent.com/90322381/231587860-aa5b2a42-0fe0-4551-812f-47caa667ccc0.png)
+
+
 ### Getting Started
 * Clone the repository: git clone https://github.com/ChisomOrika/Chambau-Inc-Analytics.git
-* Install dbt: pip install dbt
-* Configure your database connection settings in dbt_project.yml
+* Install dbt: pip install dbt-postgres
 * Load the raw data into your database staging area: run the extractload in your terminal
+* Setup the data warehouse, grant the neccessary permissions and connect it to dbt in the profiles.yml in your directory. This can be retrieved using the following command cat ~/.dbt/profiles.yml
+* Run make init to inialize dbt structure for your project
 * Transform the data and load it into your analysis area: dbt run --models
+* Run make docs to generate the project documentation and make serve to deploy this documentation to a webserver accessed at port 8080
 
 
 ### Resources:
