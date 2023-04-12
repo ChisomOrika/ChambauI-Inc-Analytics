@@ -17,6 +17,18 @@ PowerBI : BI tool for developing dashboard <br>
 
 ![Chambau workflow](https://user-images.githubusercontent.com/90322381/231427074-8120f8b7-4909-4c77-bd4d-2f70e00c5bc5.png)
 
+### How to run the project
+
+* Create a project folder and cd into this folder
+
+* Run make setup on your terminal to setup dbt in your current directory
+
+* Run make init to inialize dbt structure for your project
+
+* Setup the data warehouse, grant the neccessary permissions and connect it to dbt in the profiles.yml in your directory. This can be retrieved using the following command cat ~/.dbt/profiles.yml
+
+* Run make docs to generate the project documentation and make serve to deploy this documentation to a webserver accessed at port 8080
+
 ### Using the starter project
 
 Try running the following commands:
