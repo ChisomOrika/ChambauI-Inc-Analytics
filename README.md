@@ -54,19 +54,19 @@ PowerBI : BI tool for developing dashboard <br>
     - best_performing_product
     - agg_shipments
     - agg_public_holiday
+  - schema.yml
+  - source_yml
 - data
   - hosts.csv
   - listings.csv
   - reviews.csv <br>
-`
-hjklklo
-`|hyiooui
-`|joopppp
-`
 
-dbt_project.yml: The project configuration file that defines the settings for dbt.
+* dbt_project.yml: The project configuration file that defines the settings for dbt.
+* extractload/: The directory that contains the python file for extrating from s3 and exporting the analysis back to s3.
 models/src: The directory that contains the models for the staging area.
 models/analytics: The directory that contains the models for the analysis area.
+model/source.yml: is a config file to define the sources of data, schema and tables that used in the project. 
+model/schema.yml: contains a list of models, configuration details such as the SQL code for the model, its dependencies, and its column definitions.
 
 
 ### Getting Started
