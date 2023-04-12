@@ -18,7 +18,6 @@ PowerBI : BI tool for developing dashboard <br>
 ![Chambau workflow](https://user-images.githubusercontent.com/90322381/231427074-8120f8b7-4909-4c77-bd4d-2f70e00c5bc5.png)
 
 ### How to run the project
-
 * Create a project folder and cd into this folder
 
 * Run make setup on your terminal to setup dbt in your current directory
