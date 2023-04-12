@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project Overview
 =======
 
@@ -32,6 +31,34 @@ PowerBI : BI tool for developing dashboard <br>
 ### DBT Workflow
 
 ![chambau workflow dbt](https://user-images.githubusercontent.com/90322381/231587860-aa5b2a42-0fe0-4551-812f-47caa667ccc0.png)
+
+- dbt_project.yml
+- models
+  - staging
+    - hosts.sql
+    - listings.sql
+    - reviews.sql
+  - analysis
+    - hosts.sql
+    - listings.sql
+    - reviews.sql
+- data
+  - hosts.csv
+  - listings.csv
+  - reviews.csv
+
+
+dbt_project.yml: The project configuration file that defines the settings for dbt.
+models/src: The directory that contains the models for the staging area.
+models/analytics: The directory that contains the models for the analysis area.
+
+
+### Getting Started
+* Clone the repository: git clone https://github.com/ChisomOrika/Chambau-Inc-Analytics.git
+* Install dbt: pip install dbt
+* Configure your database connection settings in dbt_project.yml
+* Load the raw data into your database staging area: run the extractload in your terminal
+* Transform the data and load it into your analysis area: dbt run --models
 
 
 ### Resources:
