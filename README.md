@@ -11,6 +11,8 @@ Amazon s3: Data lake <br>
 Postgres : Data warehouse <br>
 PowerBI : BI tool for developing dashboard <br>
 
+### ER of Data Warehouse
+
 
 ### Workflow Architecture
 
