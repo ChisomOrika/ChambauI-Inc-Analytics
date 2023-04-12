@@ -33,7 +33,7 @@ PowerBI : BI tool for developing dashboard <br>
 
 <img width="874" alt="graph" src="https://user-images.githubusercontent.com/90322381/231490229-87901148-2c65-4ee2-ba2c-947376e72f60.png">
 
-<img width="895" alt="chambau dbt workflow" src="https://user-images.githubusercontent.com/90322381/231496975-22b2a53d-78a5-4dcf-b2db-500ac5bf9f0b.png">
+<img width="950" alt="chambau dbt workflow" src="https://user-images.githubusercontent.com/90322381/231496975-22b2a53d-78a5-4dcf-b2db-500ac5bf9f0b.png">
 
 
 ### Resources:
