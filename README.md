@@ -28,12 +28,6 @@ PowerBI : BI tool for developing dashboard <br>
 
 * Run make docs to generate the project documentation and make serve to deploy this documentation to a webserver accessed at port 8080
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
