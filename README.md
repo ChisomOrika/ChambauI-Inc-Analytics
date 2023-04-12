@@ -13,6 +13,9 @@ PowerBI : BI tool for developing dashboard <br>
 
 ### ER of Data Warehouse
 
+![schema of dim and fact tables](https://user-images.githubusercontent.com/90322381/231607826-2a640b1a-2c04-4ed2-b16c-98a44fe5ef1d.png)
+
+
 
 ### Workflow Architecture
 
