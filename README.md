@@ -11,6 +11,8 @@ Amazon s3: Data lake <br>
 Postgres : Data warehouse <br>
 PowerBI : BI tool for developing dashboard <br>
 
+![Example Image](https://drive.google.com/file/d/1ALlpoQKbjBtXxfv0f0yoSoANaxpPrkJp/view?usp=share_link)
+
 ### Using the starter project
 
 Try running the following commands:
