@@ -32,18 +32,28 @@ PowerBI : BI tool for developing dashboard <br>
 
 ![chambau workflow dbt](https://user-images.githubusercontent.com/90322381/231587860-aa5b2a42-0fe0-4551-812f-47caa667ccc0.png)
 
+
+### Project Structure
+
 - dbt_project.yml
+- extractload
+  - export_to_s2.py
+  - extract_from_s3.py
 - models
   - src
     - src_dates.sql
     - src_deliveries.sql
     - src_orders.sql
     - src_reviews.sql
-    - src_p
+    - src_products.sql
   - analysis
-    - hosts.sql
-    - listings.sql
-    - reviews.sql
+    - undelivered_shipments.sql
+    - early_shipments.sql
+    - late_shipments.sql
+    - highest_review_product
+    - best_performing_product
+    - agg_shipments
+    - agg_public_holiday
 - data
   - hosts.csv
   - listings.csv
