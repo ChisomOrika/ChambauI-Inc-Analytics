@@ -5,7 +5,11 @@
   )
 }}
 
-
+WITH src_orders AS (
+    SELECT * FROM {{ ref('src_orders') }}
+), src_dates AS (
+    SELECT * FROM {{ ref('src_dates') }}
+)
 SELECT
     CURRENT_DATE AS ingestion_date,
     COUNT(CASE WHEN EXTRACT(MONTH FROM o.order_date) = 1 THEN 1 END)::int AS tt_order_hol_jan,
@@ -21,8 +25,9 @@ SELECT
     COUNT(CASE WHEN EXTRACT(MONTH FROM o.order_date) = 11 THEN 1 END)::int AS tt_order_hol_nov,
     COUNT(CASE WHEN EXTRACT(MONTH FROM o.order_date) = 12 THEN 1 END)::int AS tt_order_hol_dec
 FROM
-    if_common.dim_dates dd
-JOIN chisorik5367_staging.orders o on dd.calendar_dt=o.order_date
+    src_dates dd
+JOIN 
+     src_orders o  on dd.calendar_dt=o.order_date
 WHERE
     dd.day_of_the_week_num BETWEEN 1 AND 5 AND dd.working_day = false AND o.order_date >= DATE_TRUNC('year', CURRENT_DATE) - INTERVAL '1 year'
 GROUP BY

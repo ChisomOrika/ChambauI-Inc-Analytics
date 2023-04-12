@@ -6,3 +6,7 @@ db_port = 5432
 db_name = 'd2b_assessment'
 staging_schema_name = 'chisorik5367_staging'
 analytics_schema_name = 'chisorik5367_analytics'
+
+# AWS crendentials
+bucket_name = 'd2b-internal-assessment-bucket'
+folder_prefix = 'orders_data/'

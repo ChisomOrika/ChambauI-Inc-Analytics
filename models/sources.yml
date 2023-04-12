@@ -1,0 +1,25 @@
+
+
+version: 2
+
+sources:
+  - name: chambau_facts
+    schema: chisorik5367_staging
+    database: d2b_assessment
+    tables:
+      - name: orders
+        identifier: orders
+      - name: deliveries
+        identifier: shipment_deliveries
+      - name: reviews
+        identifier: reviews
+        
+  - name: chambau_dim
+    schema: if_common
+    database: d2b_assessment
+    tables:
+      - name: dates
+        identifier: dim_dates
+      - name: products
+        identifier: dim_products
+       
