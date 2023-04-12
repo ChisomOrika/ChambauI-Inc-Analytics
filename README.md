@@ -14,7 +14,8 @@ PowerBI : BI tool for developing dashboard <br>
 
 ### Workflow Architecture
 
-![Blank diagram](https://user-images.githubusercontent.com/90322381/231426044-144de43d-6c14-4c2e-9646-9603b475e560.png)
+
+![Chambau workflow](https://user-images.githubusercontent.com/90322381/231427074-8120f8b7-4909-4c77-bd4d-2f70e00c5bc5.png)
 
 ### Using the starter project
 
