@@ -10,3 +10,4 @@ analytics_schema_name = 'chisorik5367_analytics'
 # AWS crendentials
 bucket_name = 'd2b-internal-assessment-bucket'
 folder_prefix = 'orders_data/'
+folder_suffix = 'orders_data/'
